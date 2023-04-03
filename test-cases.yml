@@ -147,3 +147,18 @@
     - В выпавшем списке выбираем My profile
   expected-result: |
     Пользователь видит свою статистику
+
+- summary: |
+    Проверка функции авторизации через аккаунт Discord
+  requirement: |
+    Пользователь должен иметь возможность авторизоваться через аккаунт Discord
+  prerequisites:
+    Открыта страница: https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    Должен быть выполнен вход в аккаунт в Discord
+  test-data: |
+    Тестовых данных нет
+  steps:
+    - Нажимаем на кнопку sign in with Discord
+    - Нажимаем на кнопку Авторизовать 
+  expected-result: |
+    Пользователь авторизован в приложении
