@@ -4,7 +4,7 @@
   requirement: |
     Пользователь должен зарегестрироваться в системе при заполнении всех полей регистрации
   prerequisites: |
-    Открыта страница регистрации: https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
     Nickname = Sali1 Email = Valtarra@yandex.ru Password = 11332244
   steps:
@@ -22,7 +22,7 @@
   requirement: |
     При уже использованном никнейме пользователь должен получить сообщение о занятом никнейме
   prerequisites:
-    Открыта страница регистрации: https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
     Nickname = Sali1 Email = Valtarra@yandex.ru Password = 11332244
   steps:
@@ -40,7 +40,7 @@
   requirement: |
     При вводе несуществующей почты пользователь должен получить сообщение об ошибке
   prerequisites:
-    Открыта страница регистрации: https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
     Nickname = Sali2 Email = Valtarra@yandex1.ru Password = 11332244
   steps:
