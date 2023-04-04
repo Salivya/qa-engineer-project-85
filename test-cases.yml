@@ -58,7 +58,7 @@
     При нажатии на кнопку show пользователь переходит в режим наблюдения за игрой
   prerequisites:
     Пользователь зарегестрирован в системе
- Открыта страница: https://codebattle.hexlet.io/#lobby
+    Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
@@ -72,7 +72,7 @@
     Пользователь должен иметь возможность выбрать игру по уровню сложности
   prerequisites:
     Пользователь зарегестрирован в системе
-    Открыта страница: https://codebattle.hexlet.io/#lobby
+    Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
@@ -88,7 +88,7 @@
     Пользователь должен иметь возможность выбрать различные виды игр
   prerequisites:
     Пользователь зарегестрирован в системе
-    Открыта страница: https://codebattle.hexlet.io/#lobby
+    Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
@@ -104,7 +104,7 @@
     Пользователь должен иметь возможность писать в чат
   prerequisites:
     Пользователь зарегестрирован в системе
-    Открыта страница: https://codebattle.hexlet.io/#lobby
+    Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
@@ -120,7 +120,7 @@
   prerequisites:
     Пользователь зарегестрирован в системе
     Пользователем проведена игра
-    Открыта страница: https://codebattle.hexlet.io/#lobby
+    Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
@@ -139,7 +139,7 @@
   prerequisites:
     Пользователь зарегестрирован в системе
     Пользователем проведено несколько игр 
-    Открыта страница: https://codebattle.hexlet.io/#lobby
+    Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
@@ -153,7 +153,7 @@
   requirement: |
     Пользователь должен иметь возможность авторизоваться через аккаунт Discord
   prerequisites:
-    Открыта страница: https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    Открыта страница https://codebattle.hexlet.io/session/new?locale=en&next=%2F
     Должен быть выполнен вход в аккаунт в Discord
   test-data: |
     Тестовых данных нет
@@ -169,7 +169,7 @@
     Пользователь должен иметь возможность сменить язык интерфейса #например,с русского на английский
   prerequisites:
     Пользователь авторизован
-    Открыта страница: https://codebattle.hexlet.io/#lobby
+    Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
@@ -184,7 +184,7 @@
     Пользователь должен иметь возможность создать турнир
   prerequisites:
     Пользователь авторизован
-    Открыта страница: https://codebattle.hexlet.io/tournaments
+    Открыта страница https://codebattle.hexlet.io/tournaments
   test-data: |
     Тестовых данных нет
   steps:
@@ -200,7 +200,7 @@
     Пользователь должен иметь возможность выбрать время проведения турнира
   prerequisites:
     Пользователь авторизован
-    Открыта страница: https://codebattle.hexlet.io/tournaments
+    Открыта страница https://codebattle.hexlet.io/tournaments
   test-data: |
     Тестовых данных нет
   steps:
