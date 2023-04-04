@@ -58,7 +58,7 @@
     При нажатии на кнопку show пользователь переходит в режим наблюдения за игрой
   prerequisites:
     Пользователь зарегестрирован в системе
-    Открыта страница: https://codebattle.hexlet.io/#lobby
+ Открыта страница: https://codebattle.hexlet.io/#lobby
   test-data: |
     Тестовых данных нет
   steps:
